@@ -323,7 +323,7 @@ def question9():
     answers["(c)"] = ["Partitional", "Fuzzy", "Complete"]
 
     # type: list
-    answers["(d)"] = ["Hierarchical", "Overlapping", "Partial"]
+    answers["(d)"] = ["Hierarchical", "Exclusive", "Complete"]
 
     # type: list
     answers["(e)"] = ["Partitional", "Exclusive", "Partial"]
@@ -332,8 +332,6 @@ def question9():
     answers["(e) explain"] = "Computer Science students are grouped by data mining class grades using exclusive clustering, but it's partial as not all students may have taken the class."
 
     return answers
-
-
 
 
 # -----------------------------------------------------------
